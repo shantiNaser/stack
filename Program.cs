@@ -2,22 +2,22 @@
 
 namespace task1
 {
-    public class Stack
+    public class Stack<T>
     {
         // Automatic-Proparety
-        public int[] st { get; set; }
+        public T[] st { get; set; }
         public int Top { get; set; }
         public int Max { get; set; }
 
         // Constructer
         public Stack(int size)
         {
-            st = new int[size];
+            st = new T[size];
             Top = 0;
             Max = size - 1;
         }
 
-        public void push(int element)
+        public void push(T element)
         {
             if (Top <= Max)
             {
@@ -37,12 +37,12 @@ namespace task1
             return Top == 0;
         }
 
-        public int pop()
+        public T pop()
         {
             if (Top == 0)
             {
                 System.Console.WriteLine("The Stack is Empty!");
-                return 0;
+                return st[0];
             }
             else
             {
@@ -64,16 +64,16 @@ namespace task1
             }
         }
 
-        public int peek()
+        public T peek()
         {
             if (Top == 0)
             {
                 System.Console.WriteLine("The Stack is Empty!");
-                return 0;
+                return st[0];
             }
             else
             {
-                int x = st[Top - 1];
+                T x = st[Top - 1];
                 return x;
             }
         }
@@ -96,8 +96,9 @@ namespace task1
     {
         static void Main(string[] args)
         {
+            // ----> Number Stack <-----
 
-            Stack st = new Stack(5);
+            Stack<int> st = new Stack<int>(5);
             st.push(1);
             st.push(2);
             st.push(3);
@@ -105,11 +106,11 @@ namespace task1
             st.Print();
             System.Console.WriteLine("-----------------------------------");
             int elepeek = st.peek();
-            System.Console.WriteLine($"The elemant was peek is {elepeek}");
+            System.Console.WriteLine($"The elemant was peek is ---> {elepeek}");
             st.Print();
             System.Console.WriteLine("-----------------------------------");
             int elepop = st.pop();
-            System.Console.WriteLine($"The elemant was pop is {elepop}");
+            System.Console.WriteLine($"The elemant was pop is ---> {elepop}");
             st.Print();
             System.Console.WriteLine("-----------------------------------");
             st.push(4);
@@ -117,7 +118,29 @@ namespace task1
             st.Print();
 
 
-            //st.Display();
+
+            /* // ----> String Stack <-----
+
+            Stack<String> st = new Stack<string>(4);
+            st.push("Naser");
+            st.push("Sudqi");
+            st.push("Mohammad");
+            st.push("Ahmad");
+            System.Console.WriteLine("The fully stack before any opeater is");
+            st.Print();
+            System.Console.WriteLine("-----------------------------------");
+            string elepeek = st.peek();
+            System.Console.WriteLine($"The elemant was peek is ---> {elepeek}");
+            st.Print();
+            System.Console.WriteLine("-----------------------------------");
+            string elepop = st.pop();
+            System.Console.WriteLine($"The elemant was pop is ---> {elepop}");
+            st.Print();
+            System.Console.WriteLine("-----------------------------------");
+            st.push("Amjad");
+            st.push("hala");
+            st.Print();
+            */
 
 
         }
