@@ -1,0 +1,12 @@
+/Users/macbookpro/Desktop/Foothill/task/task1/bin/Debug/netcoreapp3.1/task1.deps.json
+/Users/macbookpro/Desktop/Foothill/task/task1/bin/Debug/netcoreapp3.1/task1.runtimeconfig.json
+/Users/macbookpro/Desktop/Foothill/task/task1/bin/Debug/netcoreapp3.1/task1.runtimeconfig.dev.json
+/Users/macbookpro/Desktop/Foothill/task/task1/bin/Debug/netcoreapp3.1/task1.dll
+/Users/macbookpro/Desktop/Foothill/task/task1/bin/Debug/netcoreapp3.1/task1.pdb
+/Users/macbookpro/Desktop/Foothill/task/task1/obj/Debug/netcoreapp3.1/task1.csprojAssemblyReference.cache
+/Users/macbookpro/Desktop/Foothill/task/task1/obj/Debug/netcoreapp3.1/task1.AssemblyInfoInputs.cache
+/Users/macbookpro/Desktop/Foothill/task/task1/obj/Debug/netcoreapp3.1/task1.AssemblyInfo.cs
+/Users/macbookpro/Desktop/Foothill/task/task1/obj/Debug/netcoreapp3.1/task1.csproj.CoreCompileInputs.cache
+/Users/macbookpro/Desktop/Foothill/task/task1/obj/Debug/netcoreapp3.1/task1.dll
+/Users/macbookpro/Desktop/Foothill/task/task1/obj/Debug/netcoreapp3.1/task1.pdb
+/Users/macbookpro/Desktop/Foothill/task/task1/obj/Debug/netcoreapp3.1/task1.genruntimeconfig.cache
