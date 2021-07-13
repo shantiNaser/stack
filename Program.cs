@@ -117,9 +117,11 @@ namespace task1
             st.push(6);
             st.Print();
 
+            
 
 
-            /* // ----> String Stack <-----
+
+            /* // ----> String Stack  Example <-----
 
             Stack<String> st = new Stack<string>(4);
             st.push("Naser");
